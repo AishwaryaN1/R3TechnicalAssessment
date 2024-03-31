@@ -43,24 +43,24 @@ AssertJ
 
 Test Methods:
 
-1.getResponse()
+1.getResponse() :
 Verifies that the API call is successful and returns a valid response with a status code of 200.
 
-2.checkStatus()
+2.checkStatus() :
 Checks the status code and status returned by the API response.
 Verifies that the API response status is "SUCCESS".
 
-3.checkAEDRate()
+3.checkAEDRate() :
 Fetches the USD price against the AED and ensures that the prices are in the range of 3.6 to 3.7.
 
-5.timeStamp()
+5.timeStamp() :
 Ensures that the API response time is not less than 3 seconds compared to the current time.
 Validates that the timestamp is returned in the API response.
 
-6.totalCurrenciesFromAPI()
+6.totalCurrenciesFromAPI() :
 Verifies that 162 currency pairs are returned by the API.
 
-7.APIResponseMatchesSchema()
+7.APIResponseMatchesSchema() :
 Validates that the API response matches the JSON schema generated from the response.
 
 Running the Tests
